@@ -1,0 +1,104 @@
+[
+  {
+    "_id": "mr8yb6x5ebvs49t",
+    "title": "Big Buck Bunny",
+    "description": "A short animated film about a giant bunny and friendship.",
+    "videoUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4",
+    "localFile": "Big_Buck_Bunny_720_10s_1MB.mp4",
+    "thumbnail": "https://picsum.photos/id/1025/640/360",
+    "likes": 18,
+    "views": 443,
+    "comments": [
+      {
+        "_id": "mr8yb6x5xeuwg38",
+        "author": "Alice",
+        "text": "Nice video!",
+        "createdAt": "2026-07-06T08:21:31.721Z"
+      },
+      {
+        "_id": "mr8yb6x5mvzohg1",
+        "author": "Bob",
+        "text": "Loved the animation.",
+        "createdAt": "2026-07-06T08:21:31.721Z"
+      },
+      {
+        "_id": "mr8yro4v40oswsf",
+        "author": "Student",
+        "text": "Nice demo",
+        "createdAt": "2026-07-06T08:34:20.527Z"
+      }
+    ],
+    "createdAt": "2026-07-06T08:21:31.721Z"
+  },
+  {
+    "_id": "mr8yb6x5ggu3t78",
+    "title": "Sintel Trailer",
+    "description": "The official short trailer for the Blender Open Movie Sintel.",
+    "videoUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    "thumbnail": "https://picsum.photos/id/1035/640/360",
+    "likes": 25,
+    "views": 616,
+    "comments": [
+      {
+        "_id": "mr8yb6x58fwh08d",
+        "author": "Mira",
+        "text": "The storytelling is amazing.",
+        "createdAt": "2026-07-06T08:21:31.721Z"
+      }
+    ],
+    "createdAt": "2026-07-06T08:21:31.721Z"
+  },
+  {
+    "_id": "mr8yb6x5bz8h65t",
+    "title": "Tears of Steel Trailer",
+    "description": "A science fiction short film blending live action and CGI.",
+    "videoUrl": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4",
+    "thumbnail": "https://picsum.photos/id/1041/640/360",
+    "likes": 31,
+    "views": 741,
+    "comments": [
+      {
+        "_id": "mr8yb6x5bkjapiu",
+        "author": "Jay",
+        "text": "The VFX are very cool.",
+        "createdAt": "2026-07-06T08:21:31.721Z"
+      },
+      {
+        "_id": "mu4ff4tpka3xd3x",
+        "author": "Anonymous",
+        "text": "hello",
+        "createdAt": "2026-09-16T18:20:45.229Z"
+      }
+    ],
+    "createdAt": "2026-07-06T08:21:31.721Z"
+  },
+  {
+    "_id": "mr8yb6x5jr8ec6r",
+    "title": "Elephants Dream",
+    "description": "A surreal animated film and the first Blender Open Movie.",
+    "videoUrl": "https://media.w3.org/2010/05/bunny/trailer.mp4",
+    "thumbnail": "https://picsum.photos/id/1050/640/360",
+    "likes": 20,
+    "views": 521,
+    "comments": [
+      {
+        "_id": "mr8yb6x5whx1ch5",
+        "author": "Nina",
+        "text": "Such a creative short film.",
+        "createdAt": "2026-07-06T08:21:31.721Z"
+      }
+    ],
+    "createdAt": "2026-07-06T08:21:31.721Z"
+  },
+  {
+    "_id": "mr8yb6x53pl1coo",
+    "title": "Wind and Nature Clip",
+    "description": "A relaxing sample clip to round out the playlist.",
+    "videoUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4",
+    "thumbnail": "https://picsum.photos/id/102/640/360",
+    "likes": 9,
+    "views": 150,
+    "comments": [],
+    "createdAt": "2026-07-06T08:21:31.721Z"
+  }
+]

@@ -1,0 +1,10 @@
+node_modules/
+.env
+.DS_Store
+build/
+dist/
+*.log
+.vscode/
+.idea/
+Lab-10/frontend/node_modules/
+Lab-10/backend/node_modules/

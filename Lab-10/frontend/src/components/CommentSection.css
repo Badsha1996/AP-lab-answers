@@ -1,0 +1,122 @@
+.comment-section {
+  background: linear-gradient(180deg, rgba(10, 15, 32, 0.96), rgba(15, 24, 50, 0.92));
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(0, 212, 255, 0.14);
+  box-shadow: 0 24px 70px rgba(0, 100, 255, 0.08);
+  border-radius: 24px;
+  padding: 28px;
+  margin-top: 24px;
+}
+
+.comments-title {
+  font-size: 20px;
+  margin-bottom: 22px;
+  color: #7be2ff;
+  text-shadow: 0 0 14px rgba(0, 212, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.comment-form {
+  margin-bottom: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.comment-input,
+.comment-textarea {
+  background: rgba(8, 12, 24, 0.88);
+  border: 1px solid rgba(126, 252, 255, 0.12);
+  padding: 14px;
+  border-radius: 18px;
+  color: #edf2fb;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.comment-input:focus,
+.comment-textarea:focus {
+  border-color: rgba(0, 212, 255, 0.55);
+  box-shadow: 0 0 24px rgba(0, 212, 255, 0.18);
+}
+
+.comment-textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.comment-submit {
+  background: linear-gradient(135deg, #2c9cff 0%, #00d4ff 100%);
+  color: #fff;
+  padding: 14px 20px;
+  border-radius: 999px;
+  font-weight: 700;
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.comment-submit:hover {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 24px 40px rgba(0, 212, 255, 0.22);
+}
+
+.comments-list {
+  max-height: 430px;
+  overflow-y: auto;
+  display: grid;
+  gap: 14px;
+}
+
+.comment-item {
+  background: rgba(7, 12, 26, 0.75);
+  border: 1px solid rgba(0, 212, 255, 0.1);
+  border-radius: 20px;
+  padding: 18px;
+  transition: all 0.25s ease;
+}
+
+.comment-item:hover {
+  border-color: rgba(0, 212, 255, 0.3);
+  background: rgba(0, 212, 255, 0.06);
+  transform: translateX(1px);
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.comment-author {
+  color: #86d7ff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.comment-time {
+  color: #8b9abc;
+  font-size: 12px;
+}
+
+.comment-text {
+  color: #dbe5ff;
+  font-size: 14px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .comment-section {
+    padding: 20px;
+  }
+
+  .comments-list {
+    max-height: 320px;
+  }
+}

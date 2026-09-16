@@ -1,0 +1,131 @@
+.app {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.app::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(0, 212, 255, 0.15), transparent 20%),
+    radial-gradient(circle at 78% 14%, rgba(255, 120, 196, 0.12), transparent 18%),
+    radial-gradient(circle at 50% 85%, rgba(116, 82, 255, 0.08), transparent 15%),
+    linear-gradient(180deg, rgba(5, 8, 22, 0.9), rgba(8, 14, 35, 0.95));
+  pointer-events: none;
+  z-index: 0;
+}
+
+.main-container {
+  display: flex;
+  gap: 24px;
+  padding: 28px;
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.video-info,
+.comment-section,
+.video-player-container {
+  border-radius: 24px;
+}
+
+.video-info {
+  background: linear-gradient(180deg, rgba(9, 14, 30, 0.96), rgba(13, 19, 42, 0.88));
+  border: 1px solid rgba(0, 212, 255, 0.16);
+  box-shadow: 0 24px 80px rgba(0, 212, 255, 0.06);
+  padding: 28px;
+  margin-top: 24px;
+}
+
+.video-info:hover {
+  border-color: rgba(0, 212, 255, 0.35);
+}
+
+.video-info h2 {
+  font-size: clamp(28px, 3vw, 36px);
+  margin-bottom: 18px;
+  color: #f7fbff;
+  text-shadow: 0 0 30px rgba(0, 212, 255, 0.18);
+  font-weight: 800;
+}
+
+.video-stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  font-size: 14px;
+  color: #98a8c9;
+}
+
+.like-btn {
+  background: linear-gradient(135deg, #ff5e9d 0%, #ff9d86 100%);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.like-btn:hover {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(255, 94, 157, 0.25);
+}
+
+.description {
+  color: #d2dbe8;
+  line-height: 1.75;
+  font-size: 15px;
+}
+
+.loading,
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 480px;
+}
+
+.loading {
+  font-size: 20px;
+  color: #42d3ff;
+}
+
+.empty-state {
+  background: rgba(7, 12, 27, 0.78);
+  border: 1px dashed rgba(0, 212, 255, 0.25);
+  padding: 48px 34px;
+  border-radius: 24px;
+  text-align: center;
+  gap: 16px;
+}
+
+.empty-state h2 {
+  color: #69d5ff;
+  font-size: clamp(28px, 3vw, 34px);
+}
+
+.empty-state p {
+  color: #8fa5c4;
+  line-height: 1.7;
+  max-width: 560px;
+}
+
+@media (max-width: 1200px) {
+  .main-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+}
