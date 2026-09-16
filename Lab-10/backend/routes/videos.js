@@ -213,12 +213,55 @@ router.get('/:id/comments', (req, res) => {
 
 // TODOS - FOR STUDENTS 
 
-// TODO 1: GET /api/videos/watch-history/list
+// TODO 1: GET /api/videos - list (supports ?title=)
 
 // TODO 2: GET /api/videos/:id
 
 // TODO 3: GET /api/videos/watch-history
 
 // TODO 4: DELETE /api/videos/watch-history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 module.exports = router
