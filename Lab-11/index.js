@@ -14,7 +14,7 @@ app.use(express.json());
 
 // PATCH  /assignments/:id
 
-// Delete a record using PATCH /assignments
+// DELETE a record using PATCH /assignments
 
 // GET    /assignments?submitted=true
 
