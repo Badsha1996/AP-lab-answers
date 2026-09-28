@@ -1,0 +1,21 @@
+generator client {
+  // STEP 2: Remeber to put prisma-client-js orther wise 
+  // it will generate typescript file 
+  // run npx prisma generate 
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+// STEP 1 : Create a User Model
+model User {
+  id        Int      @id @default(autoincrement())
+  username  String   @unique
+  email     String   @unique
+  fullName  String
+  bio       String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
